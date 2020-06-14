@@ -358,7 +358,7 @@
             // 
             // tabPage3
             // 
-            this.tabPage3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.tabPage3.BackColor = System.Drawing.Color.Black;
             this.tabPage3.Location = new System.Drawing.Point(124, 4);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
@@ -368,7 +368,7 @@
             // 
             // tabPage4
             // 
-            this.tabPage4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.tabPage4.BackColor = System.Drawing.Color.Black;
             this.tabPage4.Location = new System.Drawing.Point(124, 4);
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
@@ -378,7 +378,7 @@
             // 
             // tabPage5
             // 
-            this.tabPage5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.tabPage5.BackColor = System.Drawing.Color.Black;
             this.tabPage5.Location = new System.Drawing.Point(124, 4);
             this.tabPage5.Name = "tabPage5";
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
@@ -388,7 +388,7 @@
             // 
             // tabPage6
             // 
-            this.tabPage6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.tabPage6.BackColor = System.Drawing.Color.Black;
             this.tabPage6.Location = new System.Drawing.Point(124, 4);
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Padding = new System.Windows.Forms.Padding(3);
@@ -404,9 +404,9 @@
             this.metroLabel1.ForeColor = System.Drawing.Color.Red;
             this.metroLabel1.Location = new System.Drawing.Point(217, 22);
             this.metroLabel1.Name = "metroLabel1";
-            this.metroLabel1.Size = new System.Drawing.Size(77, 21);
+            this.metroLabel1.Size = new System.Drawing.Size(49, 21);
             this.metroLabel1.TabIndex = 1;
-            this.metroLabel1.Text = "ETH -1,58";
+            this.metroLabel1.Text = "NULL";
             // 
             // metroLabel2
             // 
@@ -416,9 +416,9 @@
             this.metroLabel2.ForeColor = System.Drawing.Color.Green;
             this.metroLabel2.Location = new System.Drawing.Point(390, 22);
             this.metroLabel2.Name = "metroLabel2";
-            this.metroLabel2.Size = new System.Drawing.Size(80, 21);
+            this.metroLabel2.Size = new System.Drawing.Size(49, 21);
             this.metroLabel2.TabIndex = 2;
-            this.metroLabel2.Text = "BTC +3,58";
+            this.metroLabel2.Text = "NULL";
             // 
             // log
             // 
@@ -429,8 +429,6 @@
             this.log.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
             this.log.FormattingEnabled = true;
             this.log.ItemHeight = 15;
-            this.log.Items.AddRange(new object[] {
-            "BTC Yükseliş Yakaladı!"});
             this.log.Location = new System.Drawing.Point(15, 327);
             this.log.Name = "log";
             this.log.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
@@ -447,6 +445,7 @@
             this.github.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.github.TabIndex = 5;
             this.github.TabStop = false;
+            this.github.Click += new System.EventHandler(this.github_Click);
             // 
             // instagram
             // 
@@ -457,6 +456,7 @@
             this.instagram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.instagram.TabIndex = 6;
             this.instagram.TabStop = false;
+            this.instagram.Click += new System.EventHandler(this.instagram_Click);
             // 
             // facebook
             // 
@@ -467,6 +467,7 @@
             this.facebook.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.facebook.TabIndex = 7;
             this.facebook.TabStop = false;
+            this.facebook.Click += new System.EventHandler(this.facebook_Click);
             // 
             // telegram
             // 
@@ -477,6 +478,7 @@
             this.telegram.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.telegram.TabIndex = 8;
             this.telegram.TabStop = false;
+            this.telegram.Click += new System.EventHandler(this.telegram_Click);
             // 
             // wallet
             // 
@@ -738,9 +740,9 @@
             this.metroLabel3.Font = new System.Drawing.Font("Segoe UI", 15F);
             this.metroLabel3.Location = new System.Drawing.Point(2, 4);
             this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(94, 28);
+            this.metroLabel3.Size = new System.Drawing.Size(59, 28);
             this.metroLabel3.TabIndex = 0;
-            this.metroLabel3.Text = "1000 TRY";
+            this.metroLabel3.Text = "NULL";
             // 
             // Form1
             // 

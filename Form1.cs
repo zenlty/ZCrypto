@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -66,6 +67,27 @@ namespace ZCrypto
             panel.DefaultColor = Color.Black;
         }
 
-        
+        private void telegram_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://t.me/zenlty");
+        }
+
+        private void facebook_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://facebook.com/zenlty");
+
+        }
+
+        private void instagram_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://instagram.com/zenlty");
+
+        }
+
+        private void github_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://github.com/zenlty");
+
+        }
     }
 }
