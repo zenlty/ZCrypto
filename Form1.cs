@@ -20,9 +20,17 @@ namespace ZCrypto
         }
         private void SetDesign()
         {
-            txt_Value.BorderColor = Color.Transparent;
-            txt_Value.HoverColor = Color.Transparent;
-            metroComboBox1.BorderColor = Color.Transparent;
+            {
+                txt_Value.BorderColor = Color.Transparent;
+                txt_Value.HoverColor = Color.Transparent;
+            }//txtValue
+            {
+                log.SelectionMode = SelectionMode.None;
+            }//log
+            {
+                birim.BorderColor = Color.Transparent;
+                birim.AccentColor = Color.Transparent;
+            }//birim
         }
     }
 }

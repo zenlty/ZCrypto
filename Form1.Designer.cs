@@ -36,7 +36,7 @@
             this.metroPanelCategory5 = new MetroSuite.MetroPanelCategory();
             this.metroPanelCategory4 = new MetroSuite.MetroPanelCategory();
             this.metroPanelCategory3 = new MetroSuite.MetroPanelCategory();
-            this.metroComboBox1 = new MetroSuite.MetroComboBox();
+            this.birim = new MetroSuite.MetroComboBox();
             this.metroPanelCategory1 = new MetroSuite.MetroPanelCategory();
             this.txt_Value = new MetroSuite.MetroTextbox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -45,8 +45,7 @@
             this.tabPage6 = new System.Windows.Forms.TabPage();
             this.metroLabel1 = new MetroSuite.MetroLabel();
             this.metroLabel2 = new MetroSuite.MetroLabel();
-            this.metroLabel3 = new MetroSuite.MetroLabel();
-            this.metroListbox1 = new MetroSuite.MetroListbox();
+            this.log = new MetroSuite.MetroListbox();
             this.github = new System.Windows.Forms.PictureBox();
             this.instagram = new System.Windows.Forms.PictureBox();
             this.telegram = new System.Windows.Forms.PictureBox();
@@ -65,15 +64,38 @@
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
+            this.pictureBox11 = new System.Windows.Forms.PictureBox();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
+            this.pictureBox14 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.pictureBox16 = new System.Windows.Forms.PictureBox();
+            this.metroChecker1 = new MetroSuite.MetroChecker();
+            this.metroChecker2 = new MetroSuite.MetroChecker();
+            this.metroChecker3 = new MetroSuite.MetroChecker();
+            this.metroChecker4 = new MetroSuite.MetroChecker();
+            this.metroChecker5 = new MetroSuite.MetroChecker();
+            this.metroChecker6 = new MetroSuite.MetroChecker();
+            this.metroChecker7 = new MetroSuite.MetroChecker();
+            this.metroChecker8 = new MetroSuite.MetroChecker();
+            this.metroChecker9 = new MetroSuite.MetroChecker();
+            this.metroChecker10 = new MetroSuite.MetroChecker();
+            this.controlbox = new MetroSuite.MetroControlBox();
             this.metroTabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.metroPanelCategory2.SuspendLayout();
+            this.metroPanelCategory6.SuspendLayout();
+            this.metroPanelCategory5.SuspendLayout();
+            this.metroPanelCategory4.SuspendLayout();
+            this.metroPanelCategory3.SuspendLayout();
             this.metroPanelCategory1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.github)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.instagram)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.telegram)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.facebook)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.wallet)).BeginInit();
+            this.metroPanelCategory7.SuspendLayout();
+            this.metroPanelCategory8.SuspendLayout();
             this.metroPanelCategory9.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -85,6 +107,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             this.SuspendLayout();
             // 
             // metroTabControl1
@@ -183,6 +211,7 @@
             this.metroPanelCategory6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory6.Controls.Add(this.pictureBox14);
             this.metroPanelCategory6.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory6.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -206,6 +235,7 @@
             this.metroPanelCategory5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory5.Controls.Add(this.pictureBox12);
             this.metroPanelCategory5.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory5.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -229,6 +259,7 @@
             this.metroPanelCategory4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory4.Controls.Add(this.pictureBox13);
             this.metroPanelCategory4.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory4.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -252,6 +283,7 @@
             this.metroPanelCategory3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory3.Controls.Add(this.pictureBox11);
             this.metroPanelCategory3.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory3.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -268,29 +300,29 @@
             this.metroPanelCategory3.Style = MetroSuite.Design.Style.Dark;
             this.metroPanelCategory3.TabIndex = 2;
             // 
-            // metroComboBox1
+            // birim
             // 
-            this.metroComboBox1.AccentColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.metroComboBox1.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
-            this.metroComboBox1.BorderColor = System.Drawing.Color.Transparent;
-            this.metroComboBox1.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.metroComboBox1.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
-            this.metroComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.metroComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.metroComboBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.metroComboBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.metroComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.metroComboBox1.FormattingEnabled = true;
-            this.metroComboBox1.Items.AddRange(new object[] {
+            this.birim.AccentColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.birim.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.birim.BorderColor = System.Drawing.Color.Transparent;
+            this.birim.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.birim.DisabledColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+            this.birim.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.birim.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.birim.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.birim.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.birim.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.birim.FormattingEnabled = true;
+            this.birim.Items.AddRange(new object[] {
             "BTC",
             "ETH",
             "TRY"});
-            this.metroComboBox1.Location = new System.Drawing.Point(419, 3);
-            this.metroComboBox1.Name = "metroComboBox1";
-            this.metroComboBox1.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.metroComboBox1.Size = new System.Drawing.Size(139, 24);
-            this.metroComboBox1.Style = MetroSuite.Design.Style.Dark;
-            this.metroComboBox1.TabIndex = 1;
+            this.birim.Location = new System.Drawing.Point(419, 3);
+            this.birim.Name = "birim";
+            this.birim.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.birim.Size = new System.Drawing.Size(139, 24);
+            this.birim.Style = MetroSuite.Design.Style.Dark;
+            this.birim.TabIndex = 1;
             // 
             // metroPanelCategory1
             // 
@@ -300,7 +332,7 @@
             this.metroPanelCategory1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.metroPanelCategory1.Controls.Add(this.txt_Value);
-            this.metroPanelCategory1.Controls.Add(this.metroComboBox1);
+            this.metroPanelCategory1.Controls.Add(this.birim);
             this.metroPanelCategory1.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -396,33 +428,23 @@
             this.metroLabel2.TabIndex = 2;
             this.metroLabel2.Text = "Kayan Yazı - 2";
             // 
-            // metroLabel3
+            // log
             // 
-            this.metroLabel3.AutoSize = true;
-            this.metroLabel3.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel3.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.metroLabel3.Location = new System.Drawing.Point(640, 28);
-            this.metroLabel3.Name = "metroLabel3";
-            this.metroLabel3.Size = new System.Drawing.Size(79, 15);
-            this.metroLabel3.TabIndex = 3;
-            this.metroLabel3.Text = "Kayan Yazı - 3";
-            // 
-            // metroListbox1
-            // 
-            this.metroListbox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.metroListbox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
-            this.metroListbox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.metroListbox1.Font = new System.Drawing.Font("Segoe UI", 8F);
-            this.metroListbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
-            this.metroListbox1.FormattingEnabled = true;
-            this.metroListbox1.Items.AddRange(new object[] {
+            this.log.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
+            this.log.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.log.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.log.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.log.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
+            this.log.FormattingEnabled = true;
+            this.log.ItemHeight = 15;
+            this.log.Items.AddRange(new object[] {
             "BTC Yükseliş Yakaladı!"});
-            this.metroListbox1.Location = new System.Drawing.Point(15, 327);
-            this.metroListbox1.Name = "metroListbox1";
-            this.metroListbox1.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
-            this.metroListbox1.Size = new System.Drawing.Size(702, 130);
-            this.metroListbox1.Style = MetroSuite.Design.Style.Dark;
-            this.metroListbox1.TabIndex = 4;
+            this.log.Location = new System.Drawing.Point(15, 327);
+            this.log.Name = "log";
+            this.log.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.log.Size = new System.Drawing.Size(702, 120);
+            this.log.Style = MetroSuite.Design.Style.Dark;
+            this.log.TabIndex = 4;
             // 
             // github
             // 
@@ -471,6 +493,7 @@
             this.metroPanelCategory7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory7.Controls.Add(this.pictureBox15);
             this.metroPanelCategory7.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory7.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -494,6 +517,7 @@
             this.metroPanelCategory8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory8.Controls.Add(this.pictureBox16);
             this.metroPanelCategory8.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.metroPanelCategory8.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.metroPanelCategory8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(153)))), ((int)(((byte)(153)))));
@@ -517,6 +541,16 @@
             this.metroPanelCategory9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.metroPanelCategory9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
             this.metroPanelCategory9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.metroPanelCategory9.Controls.Add(this.metroChecker10);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker9);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker8);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker7);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker6);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker5);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker4);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker3);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker2);
+            this.metroPanelCategory9.Controls.Add(this.metroChecker1);
             this.metroPanelCategory9.Controls.Add(this.pictureBox10);
             this.metroPanelCategory9.Controls.Add(this.pictureBox9);
             this.metroPanelCategory9.Controls.Add(this.pictureBox8);
@@ -622,23 +656,246 @@
             this.pictureBox10.TabIndex = 23;
             this.pictureBox10.TabStop = false;
             // 
+            // pictureBox11
+            // 
+            this.pictureBox11.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox11.Name = "pictureBox11";
+            this.pictureBox11.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox11.TabIndex = 24;
+            this.pictureBox11.TabStop = false;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox12.TabIndex = 25;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox13.TabIndex = 25;
+            this.pictureBox13.TabStop = false;
+            // 
+            // pictureBox14
+            // 
+            this.pictureBox14.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox14.Name = "pictureBox14";
+            this.pictureBox14.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox14.TabIndex = 26;
+            this.pictureBox14.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox15.TabIndex = 27;
+            this.pictureBox15.TabStop = false;
+            // 
+            // pictureBox16
+            // 
+            this.pictureBox16.Location = new System.Drawing.Point(3, 7);
+            this.pictureBox16.Name = "pictureBox16";
+            this.pictureBox16.Size = new System.Drawing.Size(50, 35);
+            this.pictureBox16.TabIndex = 28;
+            this.pictureBox16.TabStop = false;
+            // 
+            // metroChecker1
+            // 
+            this.metroChecker1.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker1.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker1.Checked = true;
+            this.metroChecker1.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker1.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker1.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker1.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker1.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker1.Location = new System.Drawing.Point(10, 6);
+            this.metroChecker1.Name = "metroChecker1";
+            this.metroChecker1.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker1.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker1.TabIndex = 10;
+            // 
+            // metroChecker2
+            // 
+            this.metroChecker2.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker2.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker2.Checked = true;
+            this.metroChecker2.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker2.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker2.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker2.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker2.Location = new System.Drawing.Point(66, 6);
+            this.metroChecker2.Name = "metroChecker2";
+            this.metroChecker2.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker2.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker2.TabIndex = 24;
+            // 
+            // metroChecker3
+            // 
+            this.metroChecker3.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker3.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker3.Checked = true;
+            this.metroChecker3.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker3.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker3.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker3.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker3.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker3.Location = new System.Drawing.Point(121, 6);
+            this.metroChecker3.Name = "metroChecker3";
+            this.metroChecker3.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker3.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker3.TabIndex = 25;
+            // 
+            // metroChecker4
+            // 
+            this.metroChecker4.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker4.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker4.Checked = true;
+            this.metroChecker4.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker4.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker4.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker4.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker4.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker4.Location = new System.Drawing.Point(177, 6);
+            this.metroChecker4.Name = "metroChecker4";
+            this.metroChecker4.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker4.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker4.TabIndex = 26;
+            // 
+            // metroChecker5
+            // 
+            this.metroChecker5.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker5.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker5.Checked = true;
+            this.metroChecker5.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker5.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker5.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker5.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker5.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker5.Location = new System.Drawing.Point(233, 6);
+            this.metroChecker5.Name = "metroChecker5";
+            this.metroChecker5.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker5.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker5.TabIndex = 27;
+            // 
+            // metroChecker6
+            // 
+            this.metroChecker6.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker6.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker6.Checked = true;
+            this.metroChecker6.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker6.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker6.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker6.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker6.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker6.Location = new System.Drawing.Point(289, 6);
+            this.metroChecker6.Name = "metroChecker6";
+            this.metroChecker6.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker6.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker6.TabIndex = 28;
+            // 
+            // metroChecker7
+            // 
+            this.metroChecker7.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker7.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker7.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker7.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker7.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker7.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker7.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker7.Location = new System.Drawing.Point(345, 6);
+            this.metroChecker7.Name = "metroChecker7";
+            this.metroChecker7.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker7.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker7.TabIndex = 29;
+            // 
+            // metroChecker8
+            // 
+            this.metroChecker8.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker8.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker8.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker8.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker8.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker8.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker8.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker8.Location = new System.Drawing.Point(401, 6);
+            this.metroChecker8.Name = "metroChecker8";
+            this.metroChecker8.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker8.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker8.TabIndex = 30;
+            // 
+            // metroChecker9
+            // 
+            this.metroChecker9.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker9.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker9.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker9.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker9.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker9.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker9.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker9.Location = new System.Drawing.Point(456, 6);
+            this.metroChecker9.Name = "metroChecker9";
+            this.metroChecker9.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker9.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker9.TabIndex = 31;
+            // 
+            // metroChecker10
+            // 
+            this.metroChecker10.BackColor = System.Drawing.Color.Transparent;
+            this.metroChecker10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.metroChecker10.CheckColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(122)))), ((int)(((byte)(204)))));
+            this.metroChecker10.CheckedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(98)))), ((int)(((byte)(98)))), ((int)(((byte)(98)))));
+            this.metroChecker10.CheckerSymbol = MetroSuite.MetroChecker.MetroCheckerSymbol.CircleWithTick;
+            this.metroChecker10.DefaultColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            this.metroChecker10.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.metroChecker10.HoverColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(230)))), ((int)(((byte)(230)))));
+            this.metroChecker10.Location = new System.Drawing.Point(508, 6);
+            this.metroChecker10.Name = "metroChecker10";
+            this.metroChecker10.PressedColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(99)))), ((int)(((byte)(165)))));
+            this.metroChecker10.Size = new System.Drawing.Size(16, 14);
+            this.metroChecker10.TabIndex = 32;
+            // 
+            // controlbox
+            // 
+            this.controlbox.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.controlbox.Location = new System.Drawing.Point(632, 1);
+            this.controlbox.Name = "controlbox";
+            this.controlbox.Size = new System.Drawing.Size(96, 32);
+            this.controlbox.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AccentColor = System.Drawing.Color.Red;
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(729, 485);
+            this.Controls.Add(this.controlbox);
             this.Controls.Add(this.wallet);
             this.Controls.Add(this.facebook);
             this.Controls.Add(this.telegram);
             this.Controls.Add(this.instagram);
             this.Controls.Add(this.github);
-            this.Controls.Add(this.metroListbox1);
-            this.Controls.Add(this.metroLabel3);
+            this.Controls.Add(this.log);
             this.Controls.Add(this.metroLabel2);
             this.Controls.Add(this.metroLabel1);
             this.Controls.Add(this.metroTabControl1);
             this.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.MainControlBox = this.controlbox;
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.State = MetroSuite.MetroForm.FormState.Custom;
@@ -647,12 +904,18 @@
             this.metroTabControl1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.metroPanelCategory2.ResumeLayout(false);
+            this.metroPanelCategory6.ResumeLayout(false);
+            this.metroPanelCategory5.ResumeLayout(false);
+            this.metroPanelCategory4.ResumeLayout(false);
+            this.metroPanelCategory3.ResumeLayout(false);
             this.metroPanelCategory1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.github)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.instagram)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.telegram)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.facebook)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.wallet)).EndInit();
+            this.metroPanelCategory7.ResumeLayout(false);
+            this.metroPanelCategory8.ResumeLayout(false);
             this.metroPanelCategory9.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -664,6 +927,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -680,8 +949,7 @@
         private System.Windows.Forms.TabPage tabPage6;
         private MetroSuite.MetroLabel metroLabel1;
         private MetroSuite.MetroLabel metroLabel2;
-        private MetroSuite.MetroLabel metroLabel3;
-        private MetroSuite.MetroListbox metroListbox1;
+        private MetroSuite.MetroListbox log;
         private MetroSuite.MetroPanelCategory metroPanelCategory1;
         private System.Windows.Forms.PictureBox github;
         private System.Windows.Forms.PictureBox instagram;
@@ -693,7 +961,7 @@
         private MetroSuite.MetroPanelCategory metroPanelCategory5;
         private MetroSuite.MetroPanelCategory metroPanelCategory4;
         private MetroSuite.MetroPanelCategory metroPanelCategory3;
-        private MetroSuite.MetroComboBox metroComboBox1;
+        private MetroSuite.MetroComboBox birim;
         private MetroSuite.MetroTextbox txt_Value;
         private MetroSuite.MetroPanelCategory metroPanelCategory9;
         private System.Windows.Forms.PictureBox pictureBox10;
@@ -708,6 +976,23 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private MetroSuite.MetroPanelCategory metroPanelCategory7;
         private MetroSuite.MetroPanelCategory metroPanelCategory8;
+        private MetroSuite.MetroChecker metroChecker10;
+        private MetroSuite.MetroChecker metroChecker9;
+        private MetroSuite.MetroChecker metroChecker8;
+        private MetroSuite.MetroChecker metroChecker7;
+        private MetroSuite.MetroChecker metroChecker6;
+        private MetroSuite.MetroChecker metroChecker5;
+        private MetroSuite.MetroChecker metroChecker4;
+        private MetroSuite.MetroChecker metroChecker3;
+        private MetroSuite.MetroChecker metroChecker2;
+        private MetroSuite.MetroChecker metroChecker1;
+        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox pictureBox14;
+        private System.Windows.Forms.PictureBox pictureBox16;
+        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox pictureBox11;
+        private MetroSuite.MetroControlBox controlbox;
     }
 }
 
