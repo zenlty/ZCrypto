@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZCrypto", "ZCrypto.csproj", "{613FB10C-CBA4-4078-9D52-14990DCF3172}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{613FB10C-CBA4-4078-9D52-14990DCF3172}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{613FB10C-CBA4-4078-9D52-14990DCF3172}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{613FB10C-CBA4-4078-9D52-14990DCF3172}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{613FB10C-CBA4-4078-9D52-14990DCF3172}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6CCC086B-69D8-45E5-B8BC-6C184372E684}
+	EndGlobalSection
+EndGlobal
