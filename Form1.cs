@@ -7,10 +7,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MetroSuite; // For Design
+using MetroSuite.Extension; // For Design
 
 namespace ZCrypto
 {
-    public partial class Form1 : Form
+    public partial class Form1 : MetroForm // Set Metro Form
     {
         public Form1()
         {
