@@ -34,10 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroSuite 2.0">
-      <HintPath>..\..\..\source\repos\GSMTurkey Service Tool\Referanslar\MetroSuite 2.0.dll</HintPath>
-    </Reference>
-    <Reference Include="MetroSuite.Extension">
-      <HintPath>..\..\..\source\repos\GSMTurkey Service Tool\Referanslar\MetroSuite.Extension.dll</HintPath>
+      <HintPath>References\MetroSuite 2.0.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
